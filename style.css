@@ -360,56 +360,33 @@ font-size:18px;
 overflow:auto;
 }
 
-function finalMessage(){
+.promise-section{
+    padding:100px 20px;
+    text-align:center;
+}
 
-    document.body.innerHTML=`
+.promise-card{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
 
-    <div style="
-        height:100vh;
-        display:flex;
-        flex-direction:column;
-        justify-content:center;
-        align-items:center;
-        background:#111;
-        color:white;
-        text-align:center;
-        padding:40px;
-        font-family:Poppins;
-    ">
+.promise-text{
+    font-family:Caveat,cursive;
+    font-size:34px;
+    line-height:1.8;
+}
 
-    <h1 style="font-size:50px;">
-    ❤️
-    </h1>
-
-    <h2>
-    Thank you for loving me.
-    </h2>
-
-    <p style="
-        max-width:700px;
-        font-size:22px;
-        line-height:1.8;
-        margin-top:30px;
-    ">
-
-    This website took me a few hours.
-
-    <br><br>
-
-    Rebuilding your trust will take much longer.
-
-    <br><br>
-
-    I'm ready to spend however long it takes.
-
-    <br><br>
-
-    I love you, Cocaine.
-
-    </p>
-
-    </div>
-
-    `;
-
+.promise-card button{
+    margin-top:40px;
+    padding:18px 35px;
+    border:none;
+    border-radius:15px;
+    background:#8338ec;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
 }
