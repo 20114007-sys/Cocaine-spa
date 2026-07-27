@@ -359,3 +359,57 @@ text-align:left;
 font-size:18px;
 overflow:auto;
 }
+
+function finalMessage(){
+
+    document.body.innerHTML=`
+
+    <div style="
+        height:100vh;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        align-items:center;
+        background:#111;
+        color:white;
+        text-align:center;
+        padding:40px;
+        font-family:Poppins;
+    ">
+
+    <h1 style="font-size:50px;">
+    ❤️
+    </h1>
+
+    <h2>
+    Thank you for loving me.
+    </h2>
+
+    <p style="
+        max-width:700px;
+        font-size:22px;
+        line-height:1.8;
+        margin-top:30px;
+    ">
+
+    This website took me a few hours.
+
+    <br><br>
+
+    Rebuilding your trust will take much longer.
+
+    <br><br>
+
+    I'm ready to spend however long it takes.
+
+    <br><br>
+
+    I love you, Cocaine.
+
+    </p>
+
+    </div>
+
+    `;
+
+}
