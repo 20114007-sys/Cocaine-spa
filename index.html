@@ -101,6 +101,136 @@ Dear Cocaine,
 
 </section>
 
+  <section id="spa" class="spa-section">
+
+<h2>✨ Continue Your Spa Journey ✨</h2>
+
+<div class="menu">
+
+<div class="card" onclick="showSection('compliments')">
+💖
+<h3>Things I Love About You</h3>
+<p>Random compliments from your forgetful Gondus.</p>
+</div>
+
+<div class="card" onclick="showSection('memories')">
+🌸
+<h3>Memory Garden</h3>
+<p>Click flowers to revisit our favourite moments.</p>
+</div>
+
+<div class="card" onclick="showSection('massage')">
+💆🏻
+<h3>Head Massage</h3>
+<p>Virtual scritch scritches.</p>
+</div>
+
+<div class="card" onclick="showSection('coupon')">
+🎟️
+<h3>Coupon Book</h3>
+<p>Unlimited redeemable love coupons.</p>
+</div>
+
+<div class="card" onclick="showSection('diagnostics')">
+⚙️
+<h3>Relationship Diagnostics</h3>
+<p>Engineer Mode 😂</p>
+</div>
+
+</div>
+
+<div id="compliments" class="hidden page">
+
+<h2>💖 Things I Love About You</h2>
+
+<p id="complimentText"></p>
+
+<button onclick="newCompliment()">Another One ❤️</button>
+
+</div>
+
+<div id="memories" class="hidden page">
+
+<h2>🌸 Memory Garden</h2>
+
+<button class="memory" onclick="showMemory(0)">🍜 Kimchi & Co</button>
+
+<button class="memory" onclick="showMemory(1)">🌊 Besant Nagar</button>
+
+<button class="memory" onclick="showMemory(2)">📸 Church Street</button>
+
+<button class="memory" onclick="showMemory(3)">🏎️ McLaren</button>
+
+<button class="memory" onclick="showMemory(4)">😂 Mall Bags</button>
+
+<button class="memory" onclick="showMemory(5)">😘 FaceTime</button>
+
+<p id="memoryText"></p>
+
+</div>
+
+<div id="massage" class="hidden page">
+
+<h2>💆🏻 Head Massage</h2>
+
+<div id="massageBox">
+
+Move your finger here ❤️
+
+</div>
+
+</div>
+
+<div id="coupon" class="hidden page">
+
+<h2>🎟️ Coupon Book</h2>
+
+<div class="coupon" onclick="redeem(this)">
+🌸 Flower Date
+</div>
+
+<div class="coupon" onclick="redeem(this)">
+🍕 Pizza Night
+</div>
+
+<div class="coupon" onclick="redeem(this)">
+🤗 Unlimited Hugs
+</div>
+
+<div class="coupon" onclick="redeem(this)">
+💆 Head Massage
+</div>
+
+</div>
+
+<div id="diagnostics" class="hidden page">
+
+<h2>⚙️ Relationship Diagnostics</h2>
+
+<pre class="terminal">
+
+STATUS          : ❤️ CONNECTED
+
+DISTANCE        : Pune ↔ Bangalore
+
+CURRENT ISSUE   : Trust System Failure
+
+REPAIR MODE     : ACTIVE
+
+CPU             : Riya
+
+RAM             : Infinite Patience
+
+ENGINEER        : Forgetful Gondus
+
+CURRENT STATE   : Hopelessly Addicted ❤️
+
+</pre>
+
+</div>
+
+</section>
+
 </div>
 
 <script src="script.js"></script>
