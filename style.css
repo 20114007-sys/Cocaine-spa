@@ -261,3 +261,101 @@ font-family:Caveat,cursive;
 white-space:pre-line;
 
 }
+
+.spa-section{
+padding:80px 20px;
+text-align:center;
+}
+
+.menu{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:20px;
+margin-top:40px;
+}
+
+.card{
+background:white;
+padding:25px;
+border-radius:20px;
+cursor:pointer;
+transition:.3s;
+box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+.hidden{
+display:none;
+}
+
+.page{
+margin-top:50px;
+animation:fade .5s;
+}
+
+#complimentText{
+font-size:26px;
+font-family:Caveat,cursive;
+margin:30px auto;
+max-width:700px;
+}
+
+.memory{
+margin:10px;
+padding:15px 20px;
+border:none;
+border-radius:12px;
+background:#8338ec;
+color:white;
+cursor:pointer;
+}
+
+#memoryText{
+margin-top:30px;
+font-size:24px;
+font-family:Caveat,cursive;
+max-width:700px;
+margin-inline:auto;
+}
+
+#massageBox{
+margin:auto;
+margin-top:30px;
+max-width:700px;
+height:220px;
+border:3px dashed #d4a373;
+border-radius:20px;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+font-family:Caveat,cursive;
+}
+
+.coupon{
+background:white;
+padding:25px;
+margin:20px auto;
+max-width:350px;
+border-radius:18px;
+cursor:pointer;
+box-shadow:0 10px 20px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.coupon:hover{
+transform:scale(1.03);
+}
+
+.terminal{
+background:#111;
+color:#00ff7f;
+padding:25px;
+border-radius:15px;
+text-align:left;
+font-size:18px;
+overflow:auto;
+}
