@@ -206,3 +206,34 @@ card.style.background="#dff5e1";
 card.innerHTML+="<br><br>✅ REDEEMED ❤️";
 
 }
+
+.promise-section{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.promise-card{
+    max-width:800px;
+    margin:auto;
+    background:white;
+    padding:50px;
+    border-radius:25px;
+    box-shadow:0 20px 40px rgba(0,0,0,.08);
+}
+
+.promise-text{
+    font-family:Caveat,cursive;
+    font-size:34px;
+    line-height:1.8;
+}
+
+.promise-card button{
+    margin-top:40px;
+    padding:18px 35px;
+    border:none;
+    border-radius:15px;
+    background:#8338ec;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+}
