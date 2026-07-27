@@ -123,3 +123,86 @@ i++;
 },28);
 
 }
+
+const compliments=[
+
+"Your brain is genuinely one of the most attractive things about you.",
+
+"You multitask like you're running three processors while I'm still loading one thought.",
+
+"You buying me the MCL39 became one of my favourite memories.",
+
+"You somehow turned Covid into the beginning of my favourite chapter.",
+
+"I've never met someone as hardworking, smart and adorable as you.",
+
+"You're the only person who can make me feel completely at home."
+
+];
+
+function newCompliment(){
+
+document.getElementById("complimentText").innerHTML=
+compliments[Math.floor(Math.random()*compliments.length)];
+
+}
+
+newCompliment();
+
+const memories=[
+
+"Kimchi & Co followed by Laban will always be one of my favourite dates.",
+
+"I don't know if Besant Nagar remembers us, but I always will.",
+
+"That tiny Church Street photobooth captured pictures. My heart captured the day.",
+
+"Every time I look at my McLaren, I smile because of you.",
+
+"I still laugh remembering you unwillingly advertising your brand around the mall 😂",
+
+"Our weird FaceTime kisses deserve an Oscar."
+
+];
+
+function showMemory(i){
+
+document.getElementById("memoryText").innerHTML=memories[i];
+
+}
+
+function showSection(id){
+
+document.querySelectorAll(".page").forEach(x=>x.style.display="none");
+
+document.getElementById(id).style.display="block";
+
+}
+
+const massage=document.getElementById("massageBox");
+
+if(massage){
+
+massage.addEventListener("mousemove",()=>{
+
+massage.innerHTML="✨ Scritch Scritch... Hair Flip... Forehead Kiss... ❤️";
+
+clearTimeout(window.massageTimer);
+
+window.massageTimer=setTimeout(()=>{
+
+massage.innerHTML="Move your finger here ❤️";
+
+},1000);
+
+});
+
+}
+
+function redeem(card){
+
+card.style.background="#dff5e1";
+
+card.innerHTML+="<br><br>✅ REDEEMED ❤️";
+
+}
